@@ -1,0 +1,19 @@
+{
+  "name": "2-node-demo-express",
+  "version": "1.0.0",
+  "description": "This is a demo with express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "nodejs",
+    "express"
+  ],
+  "author": "Fabian Retkowski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

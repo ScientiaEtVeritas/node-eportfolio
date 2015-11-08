@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node.js Demo</title>
+    <script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
+    <script>
+        var socket = io('http://localhost:3000');
+
+        socket.on('new user', function (data) {
+            console.log(data);
+        });
+
+        socket.emit('event', 'Hello, I just emited an event');
+    </script>
+</head>
+<body>
+    Hallo Welt! Das ist HTML.
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "1-node-demo-http",
+  "version": "1.0.0",
+  "description": "This is a demo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "ePortfolio",
+    "nodejs"
+  ],
+  "author": "Fabian Retkowski",
+  "license": "ISC"
+}
